@@ -1,9 +1,13 @@
+#keys{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 button {
     width: 100px;
     height: 100px;
     border-radius: 50px; /*Makes it a circle*/
     border: none;
-    background: hsl(0%, 0%, 30%);
+    background-color: hsl(0, 0%, 30%)s;
     color: white;
     font-size: 3rem;
     font-weight: bold;
